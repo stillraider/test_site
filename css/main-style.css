@@ -75,42 +75,11 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Galien-Bold';
   src: url("../fonts/TRY_Galien-Bold.ttf"); }
 
-@font-face {
-  font-family: 'Galien-BoldItalic';
-  src: url("../fonts/TRY_Galien-BoldItalic.ttf"); }
-
-@font-face {
-  font-family: 'Galien-Book';
-  src: url("../fonts/TRY_Galien-Book.ttf"); }
-
-@font-face {
-  font-family: 'Galien-BookItalic';
-  src: url("../fonts/TRY_Galien-BookItalic.ttf"); }
-
-@font-face {
-  font-family: 'Galien-Italic';
-  src: url("../fonts/TRY_Galien-Italic.ttf"); }
-
-@font-face {
-  font-family: 'Galien-Light';
-  src: url("../fonts/TRY_Galien-Light.ttf"); }
-
-@font-face {
-  font-family: 'Galien-LightItalic';
-  src: url("../fonts/TRY_Galien-LightItalic.ttf"); }
-
-@font-face {
-  font-family: 'Galien-Poster';
-  src: url("../fonts/TRY_Galien-Poster.ttf"); }
-
-@font-face {
-  font-family: 'Galien-Regular';
-  src: url("../fonts/TRY_Galien-Regular.ttf"); }
-
 .automation-tool .illustration .container, .center-block .main-block .container, .client .light-blue .container {
   width: 100%;
   max-width: 940px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding: 0 10px; }
 
 a {
   color: white; }
@@ -315,7 +284,7 @@ a {
     flex-wrap: wrap;
     padding-bottom: 125px; }
     .client .light-blue .container .logo-client__items {
-      width: 235px;
+      width: 230px;
       height: 128px;
       font-family: "Gilroy-Semibold";
       font-size: 20px;
@@ -471,3 +440,63 @@ a {
             line-height: 30px;
             letter-spacing: 0.05em;
             color: #FFFFFF; }
+      .client .light-blue .dark-blue .container .all-rights {
+        font-family: "Gilroy-Light";
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        opacity: 0.4;
+        padding: 35px 0 64px 0; }
+
+@media (max-width: 1100px) {
+  .automation-tool .navigation {
+    padding: 0;
+    max-width: 940px;
+    width: 100%;
+    margin: 0 auto; } }
+
+@media (max-width: 1010px) {
+  .center-block .three-blocks {
+    margin: 0 auto !important;
+    margin-bottom: 100px !important; }
+  .center-block .main-block .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .client .light-blue .container .our-beloved {
+    padding-left: 20px; }
+  .client .light-blue .container .logo-client__items:nth-child(4) {
+    border-right: 1px solid #9CC1E3; }
+  .client .light-blue .container .logo-client__items:nth-child(3) {
+    border-right: 0; }
+  .client .light-blue .container .logo-client__items:nth-child(6) {
+    border-bottom: 1px solid #9CC1E3;
+    border-right: 0; }
+  .client .light-blue .container .logo-client__items:nth-child(5) {
+    border-bottom: 1px solid #9CC1E3; } }
+
+@media (max-width: 860px) {
+  .dark-blue .container .additional-information .about-us {
+    margin-left: 0 !important; }
+  .client .light-blue .dark-blue .container .additional-information {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    .client .light-blue .dark-blue .container .additional-information .afrianska {
+      margin-left: 0 !important; }
+  .client .light-blue .dark-blue .container .all-rights {
+    margin-left: 0 !important;
+    display: table; }
+  .client .light-blue .dark-blue .container .set-block {
+    display: initial !important; }
+    .client .light-blue .dark-blue .container .set-block .сlick {
+      margin: 0 0 30px 0; }
+  .client .light-blue .container .logo-client__items:nth-child(2) {
+    border-right: 0; }
+  .client .light-blue .container .logo-client__items:nth-child(3) {
+    border-right: 1px solid #9CC1E3; }
+  .client .light-blue .container .logo-client__items:nth-child(4) {
+    border-right: 0; } }
