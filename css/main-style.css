@@ -64,6 +64,10 @@ h1, h2, h3, h4, h5, h6 {
   src: url("../fonts/Gilroy-Semibold.ttf"); }
 
 @font-face {
+  font-family: 'Gilroy-Medium';
+  src: url("../fonts/Gilroy-Medium.ttf"); }
+
+@font-face {
   font-family: 'Gilroy-Light';
   src: url("../fonts/Gilroy-Light.ttf"); }
 
@@ -102,6 +106,11 @@ h1, h2, h3, h4, h5, h6 {
 @font-face {
   font-family: 'Galien-Regular';
   src: url("../fonts/TRY_Galien-Regular.ttf"); }
+
+.automation-tool .illustration .container, .center-block .main-block .container, .client .light-blue .container {
+  width: 100%;
+  max-width: 940px;
+  margin: 0 auto; }
 
 .automation-tool {
   background: -webkit-gradient(linear, left bottom, left top, color-stop(8.84%, #EAF3FA), color-stop(31.12%, rgba(152, 195, 232, 0)));
@@ -159,38 +168,230 @@ h1, h2, h3, h4, h5, h6 {
     height: 95%;
     padding-top: 117px;
     background: url(../images/illustration/illustration.svg) no-repeat 97% 8%; }
-    .automation-tool .illustration .container {
+    .automation-tool .illustration .container .small-block__title {
       width: 100%;
-      max-width: 940px;
-      margin: 0 auto; }
-      .automation-tool .illustration .container .small-block__title {
-        width: 100%;
-        max-width: 510px;
-        font-family: "Galien-Bold";
-        margin-bottom: 32px;
-        font-size: 64px;
-        line-height: 74px;
-        color: #1F3F68; }
-      .automation-tool .illustration .container .small-block__text {
-        width: 100%;
-        max-width: 400px;
+      max-width: 510px;
+      font-family: "Galien-Bold";
+      margin-bottom: 32px;
+      font-size: 64px;
+      line-height: 74px;
+      letter-spacing: 0.04em;
+      color: #1F3F68; }
+    .automation-tool .illustration .container .small-block__text {
+      width: 100%;
+      max-width: 400px;
+      font-family: "Gilroy-Semibold";
+      margin-bottom: 71px;
+      font-size: 16px;
+      line-height: 26px;
+      letter-spacing: 0.05em;
+      color: #1F3F68;
+      opacity: 0.6; }
+    .automation-tool .illustration .container .small-block .buttom-project {
+      width: 220px;
+      height: 56px;
+      cursor: pointer;
+      background: #5A98D0;
+      -webkit-box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+      box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+      border-radius: 10px; }
+      .automation-tool .illustration .container .small-block .buttom-project__item {
+        font-family: "Gilroy-Light";
+        font-size: 16px;
+        letter-spacing: 0.04em;
+        padding: 20px;
+        text-align: center;
+        color: #FFFFFF; }
+
+.center-block .main-block {
+  padding-top: 192px; }
+  .center-block .main-block .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .center-block .main-block .container .left-block__text {
+      width: 358px;
+      font-family: 'Gilroy-Semibold';
+      font-size: 36px;
+      line-height: 46px;
+      letter-spacing: 0.05em;
+      margin-bottom: 158px;
+      color: #316099; }
+    .center-block .main-block .container .three-blocks {
+      width: 380px;
+      height: 525px;
+      padding: 48px;
+      background: #FFFFFF;
+      -webkit-box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+      box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+      border-radius: 10px; }
+      .center-block .main-block .container .three-blocks__img {
+        background: url(../images/three-blocks/1.svg) no-repeat center;
+        background-size: contain;
+        margin-left: 26px;
+        margin-bottom: 56px;
+        width: 182px;
+        height: 132px; }
+      .center-block .main-block .container .three-blocks__title {
         font-family: "Gilroy-Semibold";
-        margin-bottom: 71px;
+        margin-bottom: 16px;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.05em;
+        color: #1F3F68; }
+      .center-block .main-block .container .three-blocks__text {
+        font-family: 'Gilroy-Medium';
+        width: 265px;
         font-size: 16px;
         line-height: 26px;
         color: #1F3F68;
+        margin-bottom: 32px;
+        letter-spacing: 0.05em;
         opacity: 0.6; }
-      .automation-tool .illustration .container .small-block .buttom-project {
-        width: 220px;
-        height: 56px;
-        cursor: pointer;
-        background: #5A98D0;
-        -webkit-box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
-        box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
-        border-radius: 10px; }
-        .automation-tool .illustration .container .small-block .buttom-project__item {
+      .center-block .main-block .container .three-blocks .learn-more {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex; }
+        .center-block .main-block .container .three-blocks .learn-more__text {
+          font-family: "Gilroy-Semibold";
+          font-size: 14px;
+          letter-spacing: 0.05em;
+          line-height: 30px;
+          color: #5A98D0; }
+        .center-block .main-block .container .three-blocks .learn-more__arrow {
+          background: url(../images/three-blocks/Vector.svg);
+          width: 16px;
+          height: 16px;
+          margin-top: 8px;
+          margin-left: 28px; }
+    .center-block .main-block .container .right-block .three-blocks {
+      margin: 0 0 100px 100px; }
+      .center-block .main-block .container .right-block .three-blocks:last-child {
+        padding: 47px;
+        margin-bottom: 212px; }
+      .center-block .main-block .container .right-block .three-blocks:nth-child(1) {
+        padding-top: 0; }
+      .center-block .main-block .container .right-block .three-blocks__img:nth-child(1) {
+        background: url(../images/three-blocks/3.svg) no-repeat center;
+        background-size: contain;
+        margin-bottom: 33px;
+        width: 224px;
+        height: 197px;
+        position: relative;
+        bottom: 25px; }
+
+.client .light-blue {
+  background: #5A98D0;
+  border-radius: 200px 0px 0px 0px; }
+  .client .light-blue .container .our-beloved {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 96px;
+    padding-bottom: 110px; }
+    .client .light-blue .container .our-beloved__title {
+      font-family: "Gilroy-Semibold";
+      width: 270px;
+      font-size: 36px;
+      line-height: 46px;
+      letter-spacing: 0.05em;
+      color: #FFFFFF; }
+    .client .light-blue .container .our-beloved__text {
+      font-family: "Gilroy-Light";
+      width: 530px;
+      font-size: 16px;
+      line-height: 26px;
+      letter-spacing: 0.05em;
+      color: #FFFFFF;
+      opacity: 0.6; }
+  .client .light-blue .container .logo-client {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-bottom: 125px; }
+    .client .light-blue .container .logo-client__items {
+      width: 235px;
+      height: 128px;
+      font-family: "Gilroy-Semibold";
+      font-size: 20px;
+      letter-spacing: 0.02em;
+      color: #F2F2F2;
+      text-transform: uppercase;
+      border-right: 1px solid #9CC1E3;
+      border-bottom: 1px solid #9CC1E3;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+    .client .light-blue .container .logo-client__items:last-child {
+      background: #4E87BB;
+      text-transform: initial;
+      border-right: 0;
+      border-bottom: 0; }
+    .client .light-blue .container .logo-client__items:nth-child(4) {
+      border-right: 0; }
+    .client .light-blue .container .logo-client__items:nth-child(5) {
+      border-bottom: 0; }
+    .client .light-blue .container .logo-client__items:nth-child(6) {
+      border-bottom: 0; }
+    .client .light-blue .container .logo-client__items:nth-child(7) {
+      border-bottom: 0; }
+  .client .light-blue .dark-blue {
+    background: #316099;
+    border-radius: 0px 200px 0px 0px;
+    margin-right: 96px; }
+    .client .light-blue .dark-blue .container {
+      max-width: 860px;
+      width: 100%;
+      margin: 0 auto; }
+      .client .light-blue .dark-blue .container .set-block {
+        padding-top: 91px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex; }
+        .client .light-blue .dark-blue .container .set-block .left-text__title {
+          font-family: "Gilroy-Semibold";
+          font-size: 36px;
+          line-height: 46px;
+          width: 320px;
+          letter-spacing: 0.05em;
+          color: #FFFFFF;
+          margin-bottom: 32px; }
+        .client .light-blue .dark-blue .container .set-block .left-text__text {
+          width: 460px;
           font-family: "Gilroy-Light";
           font-size: 16px;
-          padding: 20px;
-          text-align: center;
-          color: #FFFFFF; }
+          line-height: 26px;
+          letter-spacing: 0.05em;
+          color: #FFFFFF;
+          padding-bottom: 96px;
+          opacity: 0.6; }
+        .client .light-blue .dark-blue .container .set-block .сlick {
+          width: 220px;
+          height: 56px;
+          background: #5A98D0;
+          border-radius: 10px;
+          cursor: pointer;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          margin-left: auto;
+          margin-top: 73px; }
+          .client .light-blue .dark-blue .container .set-block .сlick__text {
+            font-family: "Gilroy-Light";
+            font-size: 16px;
+            letter-spacing: 0.04em;
+            color: #FFFFFF; }
