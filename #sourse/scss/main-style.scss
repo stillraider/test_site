@@ -128,8 +128,8 @@ a {
                 }
             }
             .three-blocks {
-                width: 380px;
-                height: 525px;
+                width: 82%;
+                max-width: 380px;
                 padding: 48px;
                 background: #FFFFFF;
                 box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
@@ -139,7 +139,8 @@ a {
                     background-size: contain;
                     margin-left: 26px;
                     margin-bottom: 56px;
-                    width: 182px;
+                    width: 100%;
+                    max-width: 182px;
                     height: 132px;
                 }
                 &__title {
@@ -152,7 +153,8 @@ a {
                 }
                 &__text {
                     font-family: 'Gilroy-Medium';
-                    width: 265px;
+                    width: 100%;
+                    max-width: 265px;
                     font-size: 16px;
                     line-height: 26px;
                     color: #1F3F68;
@@ -192,7 +194,8 @@ a {
                         background: url(../images/three-blocks/3.svg) no-repeat center;
                         background-size: contain;
                         margin-bottom: 33px;
-                        width: 224px;
+                        width: 100%;
+                        max-width: 224px;
                         height: 197px;
                         position: relative;
                         bottom: 25px;
@@ -290,7 +293,8 @@ a {
                             margin-bottom: 32px;
                         }
                         &__text {
-                            width: 460px;
+                            width: 100%;
+                            max-width: 460px;
                             font-family: "Gilroy-Light";
                             font-size: 16px;
                             line-height: 26px;
@@ -483,6 +487,27 @@ a {
                 border-right: 1px solid #9CC1E3;
             }
             &__items:nth-child(4) {
+                border-right: 0;
+            }
+        }
+    }
+}
+@media (max-width: 550px) {
+    .client .light-blue .dark-blue {
+        margin-right: 30px !important;
+    }
+    .client .light-blue .container {
+        .logo-client {
+            &__items:nth-child(1) {
+                border-right: 0;
+            }
+            &__items:nth-child(3) {
+                border-right: 0;
+            }
+            &__items:nth-child(7) {
+                border-right: 0;
+            }
+            &__items:nth-child(5) {
                 border-right: 0;
             }
         }
